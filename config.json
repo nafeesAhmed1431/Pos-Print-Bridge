@@ -1,0 +1,11 @@
+{
+  "transport": "",
+  "printers": {
+    "kitchen": "192.168.1.140",
+    "bar": {
+      "host": "192.168.1.141",
+      "port": 9100,
+      "transport": "NETWORK"
+    }
+  }
+}

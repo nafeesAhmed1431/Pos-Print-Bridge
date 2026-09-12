@@ -1,0 +1,21 @@
+{
+  "name": "print-server",
+  "version": "1.0.0",
+  "description": "Local print bridge - relays raw ESC/POS bytes from the POS web app to USB and network thermal printers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "gen-cert": "node scripts/gen-cert.js"
+  },
+  "devDependencies": {
+    "selfsigned": "^2.4.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.13.0"
+  }
+}
